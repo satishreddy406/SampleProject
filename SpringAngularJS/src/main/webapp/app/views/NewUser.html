@@ -1,0 +1,22 @@
+<div class="newuser">
+	<h3>
+		<p>Registration Form</p>
+	</h3>
+	<div data-ng-controller="newUserController">
+
+		<form data-ng-submit="newUser()">
+
+			User Name : <input type="text" data-ng-model="username"
+				required="required"> <br/> Password : <input type="password"
+				data-ng-model="password" required="required"><br/> Confirm
+			Password : <input type="password" data-ng-model="cnfpassword"
+				required="required"> <br /> <input type="submit"
+				value="Submit">
+		</form>
+		<div class="all-users">
+			<p>
+				<a href="#/allUsers">All Users</a>
+			</p>
+		</div>
+	</div>
+</div>

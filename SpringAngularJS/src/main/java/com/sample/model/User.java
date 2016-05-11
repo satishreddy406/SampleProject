@@ -13,7 +13,7 @@ import org.codehaus.jackson.map.annotate.JsonRootName;
 import com.fasterxml.jackson.annotation.JsonProperty;
 
 @Entity
-@JsonRootName("user")
+
 @Table(name = "USER_DETAILS")
 public class User implements Serializable {
 

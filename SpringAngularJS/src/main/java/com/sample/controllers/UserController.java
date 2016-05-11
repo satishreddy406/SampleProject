@@ -40,12 +40,12 @@ public class UserController {
 		System.out.println(user1);
 	}
 
-	@RequestMapping(value = "/user", method = RequestMethod.GET, headers = "Accept=application/json")
+	@RequestMapping(value = "/user", method = RequestMethod.GET)
 	public List<User> getUser(@RequestParam(value = "uname") String username) {
 		return userService.getUser(username);
 	}
 
-	@RequestMapping(value = "/users", method = RequestMethod.GET, headers = "Accept=application/json")
+	@RequestMapping(value = "/users", method = RequestMethod.GET)
 	public List<User> getAllUsers() {
 		System.out.println("allUSers");
 
@@ -66,10 +66,9 @@ public class UserController {
 		} catch (IOException e) {
 			e.printStackTrace();
 		}
-		
-		System.out.println(user1);	
 
-		
+		System.out.println(user1);
+
 		return userService.updateUser(user1);
 
 	}

@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<weblogic-web-app xmlns="http://xmlns.oracle.com/weblogic/weblogic-web-app">
+
+	<container-descriptor>
+		<require-admin-traffic>true</require-admin-traffic>
+		<prefer-web-inf-classes>true</prefer-web-inf-classes>
+
+	</container-descriptor>
+
+</weblogic-web-app>

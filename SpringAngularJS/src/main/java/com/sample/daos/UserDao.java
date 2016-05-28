@@ -2,18 +2,23 @@ package com.sample.daos;
 
 import java.util.List;
 
+import org.apache.log4j.Logger;
 import org.hibernate.Query;
 import org.hibernate.Session;
 import org.hibernate.SessionFactory;
 import org.hibernate.Transaction;
 import org.springframework.beans.factory.annotation.Autowired;
-import org.springframework.stereotype.Component;
+import org.springframework.stereotype.Repository;
 
 import com.sample.model.User;
 
-@Component
+@Repository
 public class UserDao {
 
+	@SuppressWarnings("unused")
+	private static final Logger log = Logger.getLogger("UserDao.class");
+
+	
 	@Autowired
 	private SessionFactory sessionFactory;
 
@@ -55,7 +60,7 @@ public class UserDao {
 
 		User user = (User) session.get(User.class, user1.getId());
 
-		session.update(user);
+		session.merge(user);
 		user.setPassword(user1.getPassword());
 
 		transaction.commit();

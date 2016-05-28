@@ -3,7 +3,7 @@ var app = angular.module('loginApp', [ 'ngRoute', 'ngMaterial', 'ngAnimate','ngM
 
 app.config(function($routeProvider) {
 
-	$routeProvider.when('/login', {
+	$routeProvider.when('/', {
 		templateUrl : 'app/views/login.html',
 		controller : 'loginController'
 	}).when('/NewUser', {
@@ -18,14 +18,10 @@ app.config(function($routeProvider) {
 	}).when('/error', {
 		templateUrl : 'app/views/Error.html',
 		controller : 'loginController'
-	}).when('/customer', {
-		templateUrl : 'app/views/CustomerList.html',
-		controller : 'customerController'
 	}).when('/', {
-		templateUrl : 'app/views/OrderForm.html',
-		controller : 'orderController'
-	});
-
+		templateUrl : 'app/views/login.html',
+		controller : 'loginController'
+	})
 });
 angular.module('app').config(function($mdDateLocaleProvider) {
     $mdDateLocaleProvider.formatDate = function(date) {

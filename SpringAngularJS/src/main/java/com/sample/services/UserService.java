@@ -2,7 +2,9 @@ package com.sample.services;
 
 import java.util.List;
 
+import org.apache.log4j.Logger;
 import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.stereotype.Repository;
 import org.springframework.stereotype.Service;
 
 import com.sample.daos.UserDao;
@@ -10,6 +12,8 @@ import com.sample.model.User;
 
 @Service("UserService")
 public class UserService {
+
+	private static final Logger log = Logger.getLogger("UserService.class");
 
 	@Autowired
 	private UserDao userDao;

@@ -1,14 +1,11 @@
-E:\git\SampleProject\SpringAngularJS\src\main\java\com\sample\services\CustomerService.java
 E:\git\SampleProject\SpringAngularJS\src\main\java\com\sample\controllers\UserController.java
-E:\git\SampleProject\SpringAngularJS\src\main\java\com\sample\controllers\CustomerController.java
 E:\git\SampleProject\SpringAngularJS\src\main\java\com\sample\daos\LoginDao.java
-E:\git\SampleProject\SpringAngularJS\src\main\java\com\sample\services\LoginService.java
 E:\git\SampleProject\SpringAngularJS\src\main\java\com\sample\model\User.java
-E:\git\SampleProject\SpringAngularJS\src\main\java\com\sample\services\OrderService.java
-E:\git\SampleProject\SpringAngularJS\src\main\java\com\sample\controllers\OrderController.java
+E:\git\SampleProject\SpringAngularJS\src\main\java\com\sample\services\LoginService.java
 E:\git\SampleProject\SpringAngularJS\src\main\java\com\sample\services\UserService.java
 E:\git\SampleProject\SpringAngularJS\src\main\java\com\sample\controllers\DefaultController.java
-E:\git\SampleProject\SpringAngularJS\src\main\java\com\sample\model\Customer.java
+E:\git\SampleProject\SpringAngularJS\src\main\java\com\sample\test\TestJava.java
 E:\git\SampleProject\SpringAngularJS\src\main\java\com\sample\daos\UserDao.java
+E:\git\SampleProject\SpringAngularJS\src\main\java\com\sample\model\Customer.java
 E:\git\SampleProject\SpringAngularJS\src\main\java\com\sample\model\Item.java
 E:\git\SampleProject\SpringAngularJS\src\main\java\com\sample\controllers\LoginController.java

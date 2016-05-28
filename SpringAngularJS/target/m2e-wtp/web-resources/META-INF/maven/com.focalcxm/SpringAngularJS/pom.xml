@@ -5,6 +5,8 @@
 	<artifactId>SpringAngularJS</artifactId>
 	<packaging>war</packaging>
 
+	
+	
 	<properties>
 		<spring.version>4.0.5.RELEASE</spring.version>
 

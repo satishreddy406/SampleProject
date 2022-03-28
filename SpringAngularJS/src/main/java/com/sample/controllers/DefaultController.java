@@ -11,4 +11,10 @@ public class DefaultController {
 	public String index(ModelMap map){
 		return "index";
 	}*/
+
+	@RequestMapping("/SpringAngularJS")
+	public String getNumber(ModelMap map){
+		return "index";
+	}
+
 }

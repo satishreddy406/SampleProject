@@ -35,6 +35,7 @@ public class LoginDao {
 			if (password.equals(pwd)) {
 				status = "success";
 			} else {
+				SYstem.out.println("Test");
 			}
 		}
 		System.out.println("");

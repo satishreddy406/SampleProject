@@ -17,6 +17,7 @@ public class LoginDao {
 
 	private Session session;
 
+
 	@SuppressWarnings("unchecked")
 	public String login(String username, String password) {
 
@@ -34,9 +35,9 @@ public class LoginDao {
 			if (password.equals(pwd)) {
 				status = "success";
 			} else {
-				status = "fail";
 			}
 		}
+		System.out.println("");
 		return status;
 	}
 }

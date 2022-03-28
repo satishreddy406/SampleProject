@@ -7,8 +7,8 @@ import org.springframework.web.bind.annotation.RestController;
 @RestController
 public class DefaultController {
 
-	@RequestMapping("/SpringAngularJS")
+	/*@RequestMapping("/SpringAngularJS")
 	public String index(ModelMap map){
 		return "index";
-	}
+	}*/
 }

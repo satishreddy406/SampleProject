@@ -9,6 +9,7 @@ public class DefaultController {
 
 	/*@RequestMapping("/SpringAngularJS")
 	public String index(ModelMap map){
+	
 		return "index";
 	}*/
 
@@ -17,4 +18,12 @@ public class DefaultController {
 		return "index";
 	}
 
+
+	
+	@RequestMapping("/SpringAngularJS1")
+	public String getIndex(ModelMap map){
+	
+		return "index";
+	}
+	
 }
